@@ -1,6 +1,7 @@
 {
-	"scannet" : "../../Assets/scannet-sample/",
-	"shapenet" : "../../Assets/shapenet-sample/",
+	"scannet" : "/global/scratch/oafolabi/data/ScanNet/scans",
+	"shapenet" : "/global/scratch/oafolabi/data/ShapeNetCore.v2",
+	"annotations" : "/global/scratch/oafolabi/data/scan2cad_download_link_FILES",
 	"scannet_voxelized" : "../../Assets/scannet-voxelized-sdf-sample/",
 	"shapenet_voxelized" : "../../Assets/shapenet-voxelized-df-sample/",
 	"centers" : "../../Assets/training-data/scan-centers-sample/",

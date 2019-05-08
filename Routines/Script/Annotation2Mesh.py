@@ -67,9 +67,9 @@ if __name__ == '__main__':
     verts0 = []
     norms0 = []
     scan_file = ""
-    for r in JSONHelper.read("./full_annotations.json"):
+    for r in JSONHelper.read(params["annotations"] + "/full_annotations.json"):
         id_scan = r["id_scan"]
-        if id_scan != "scene0470_00":
+        if id_scan != "scene0567_01":
             continue
         for model in r["aligned_models"]:
             t = model["trs"]["translation"]
